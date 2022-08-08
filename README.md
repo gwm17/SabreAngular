@@ -1,0 +1,4 @@
+# SabreAngular
+SabreAngular is a set of simple python scripts aimed at fitting SABRE angular distributions with Legendre polynomial expansions and extracting branching ratios from these fits. SabreAngular contains one primary script Fitter.py, and two helper scripts GenerateExpFile/SimFile.py The Generate...py scripts are used to make text files containing the relevant experimental and simulated data for calculating angular distributions, and Fitter.py acutally does the work of fitting and calculating branching ratios.
+
+SabreAngular requires the packages scipy, numpy, lmfit, and matplotlib. The fit and the data will be plotted, and the resulting statistical analysis of the fit will be printed to the terminal.
